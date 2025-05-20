@@ -11,7 +11,7 @@ El microservicio expone un único endpoint HTTP que responde con un mensaje simp
 ```json
 {"message": "Hello World"}
 
-
+```
 ## Tecnologías utilizadas
 
 | Tecnología        | Descripción                                        |
