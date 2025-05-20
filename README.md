@@ -1,7 +1,6 @@
 # Microservicio "Hola Mundo" - Despliegue en AWS con CI/CD
 
-Este repositorio contiene un **microservicio de ejemplo** construido con **Python y Flask**, que retorna un objeto JSON simple. El objetivo de este proyecto es demostrar la capacidad de construir, contenerizar, y desplegar automáticamente una aplicación en la nube utilizando herramientas modernas como **Terraform**, **Docker** y **GitHub Actions**.
-Prueba técnica para **Fraternitas**.
+El objetivo de este proyecto es evidenciar la habilidad para desarrollar, empaquetar en contenedores y automatizar el despliegue de una aplicación en la nube mediante el uso de tecnologías actuales como Terraform, Docker y GitHub Actions.
 
 ---
 
