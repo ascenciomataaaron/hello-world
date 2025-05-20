@@ -28,20 +28,20 @@ El microservicio expone un único endpoint HTTP que responde con un mensaje simp
 
 ## Estructura del proyecto
 
-microservicio-hola-mundo/
-├── src/                    # Código fuente de la API Flask
+hello-world/
+├── src/
 │   └── app.py
-├── Dockerfile              # Imagen del contenedor
-├── requirements.txt        # Dependencias del microservicio
-├── terraform/              # Código de infraestructura
+├── Dockerfile
+├── requirements.txt
+├── terraform/
 │   ├── main.tf
 │   ├── variables.tf
 │   ├── outputs.tf
 │   └── provider.tf
 ├── .github/workflows/
-│   └── deploy.yaml         # Workflow de GitHub Actions
+│   └── deploy.yaml
 ├── .gitignore
-└── README.md               # Este archivo
+└── README.md           
 
 
 ## Como ejecutar el proyecto
@@ -124,5 +124,4 @@ curl http://3.95.27.82
 # {"message": "Hello World"}
 
 
-Autor
-Aaron Ascencio Mata (Prueba técnica para Fraternitas)
+Autor: Aaron Ascencio Mata (Prueba técnica para Fraternitas)
