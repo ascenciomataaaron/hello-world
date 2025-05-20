@@ -55,4 +55,4 @@ jobs:
         echo "Obteniendo IP pública asociada..."
         PUBLIC_IP=$(aws ec2 describe-network-interfaces --network-interface-ids $ENI_ID --query 'NetworkInterfaces[0].Association.PublicIp' --output text)
 
-        echo "✅ IP Pública de la tarea ECS: $PUBLIC_IP"
+        echo "IP Pública de la tarea ECS: $PUBLIC_IP"
